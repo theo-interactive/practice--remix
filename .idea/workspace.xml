@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e45be093-4a85-4659-bfb5-9e9aa664b6e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitpod.Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitpod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entry.client.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entry.server.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/note.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/healthcheck.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/join.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/logout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/notes.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/notes/$noteId.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/notes/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/notes/new.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/session.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/smoke.cy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/create-user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/delete-user.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/e2e.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocks/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mocks/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/migrations/20220713162558_init/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/seed.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remix.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remix.env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remix.init/gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remix.init/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remix.init/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/setup-test-env.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitest.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +94,54 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev:remix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev:remix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="setup" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="setup" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.dev:remix" />
+        <item itemvalue="npm.setup" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,11 +150,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676470195707</updated>
-      <workItem from="1676470197101" duration="413000" />
+      <workItem from="1676470197101" duration="1840000" />
     </task>
+    <task id="LOCAL-00001" summary="[feat] set up remix">
+      <created>1676470726245</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676470726245</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feat] set up remix" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat] set up remix" />
   </component>
 </project>
